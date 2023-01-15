@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  text-align: center;
+  .App-header {
+    // background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    // color: white;
+  }
+
+  // #quote-box {
+  //   // @apply bg-violet-200;
+  //   border-radius: 10px;
+  //   color: black;
+  //   padding: 32px;
+  //   #author {
+  //     text-align: end;
+  //   }
+  //   #tweet-quote{
+  //     float: left;
+  //     margin-left: 24px;
+  //   }
+  //   #new-quote{
+  //     float: right;
+  //     margin-right: 24px;
+  //   }
+  // }
+}
